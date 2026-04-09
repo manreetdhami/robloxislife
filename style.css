@@ -1,43 +1,29 @@
-img {
-    width:49%;
-}
-
-img.hue-rotate-filter {
-    filter: hue-rotate(90deg);
-}
-
-img.blur-filter {
-    filter: blur(4px);
-}
-
-img.grayscale-filter {
-    filter: grayscale(100%);
-}
-
-img.opacity-filter {
-    filter: opacity(50%);
-}
-
-img.saturate-filter {
-    filter: saturate(5);
-}
-
-img.sepia-filter {
-    filter: sepia(100%);
-}
-
-img.invert-filter {
-    filter: invert(100%);
-}
-
-img.shadow-filter {
-    filter: drop-shadow(8px 8px 10px blue);
-}
-
-img.brightness-filter {
-    filter: brightness(200%);
-}
-
-img.contrast-filter {
-    filter: contrast(200%);
-}
+body{
+    background-color: #ffe6f4;
+    font-size: 16px;
+    font-family: Arial;
+    }
+        
+h1{
+    color: #ff40a9;
+    font-family: Georgia, serif
+    }
+    
+h2{
+    color: #ff7ac3;
+    font-size: 24px;
+    }
+            
+h3{
+    color: #ffb5de;
+    }
+            
+img{
+    border: 2px solid #ff7ac3;
+    margin: 5px;
+    }
+            
+div{
+    margin: 15px;
+    padding: 10px;
+    }
